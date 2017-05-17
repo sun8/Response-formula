@@ -1,0 +1,107 @@
+@media all and (max-width:768px ){
+	.wrap{
+		max-width:712px;
+		}
+	.banner-downloadBox a,.banner-downloadBox img,.ft-bookBox{
+		width: 100%;
+	}
+	.banner-featureBox{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.contentText-introWrap,.contentText-resourceWrap,.featureWrap,.content-bgico,.ftNav,.copyright,.banner-downloadBox{
+		float: none;
+		width: 100%;
+	}
+	.content-ico{
+		display: block;
+		width: 100%;
+	}
+	.contentText-resource{
+		padding: 0 0 0 25px;
+	}
+	.copyright-ver,.copyright-intro,.content-icoBox{
+		text-align: center;
+	}
+	.copyright-ver a,.copyright-ver span,.ftNav-link{
+		float: none;
+	}
+	.copyright-intro{
+		width: 100%;
+		text-align: center;
+	}
+	.copyright-introI{
+		float: none;
+		display: inline-block;
+		white-space:normal;
+	}
+}
+
+
+
+@media all and (max-width:600px ){
+	.wrap{
+		max-width:545px;
+		}
+	.hd-icoNav{
+		display: none;
+	}
+	.hd-textNav,.nav,.bookIWrap{
+		float: none;
+		width: 100%;
+	}
+	.logo{
+		float: none;
+		margin: 20px auto 0 auto ;
+	}
+	.introLogo{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.searchbar{
+		float: left;
+		width: 100%;
+		margin-top: 0;
+	}
+	.navI-link{
+		border: 0;
+	}
+	.navbar{
+		background:none; 
+    	border: 0; 
+    	border-radius: 0; 
+    	box-shadow:none;
+    	margin-bottom: 15px ;
+	}
+	.navI{
+		font-size: 12px;
+	}
+}
+
+
+@media all and (max-width:480px ){
+	.wrap{
+		max-width:447px;
+		}
+	.hdWrap,.nav{
+		display: none;
+	}
+	.navSel{
+		display: block;
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.logobarWrap{
+		padding-bottom: 50px;
+	}
+	.bookIWrap{
+		width: 140px;
+	}
+	.book{
+		width: 140px;
+		margin: 0 auto;
+	}
+}
+
